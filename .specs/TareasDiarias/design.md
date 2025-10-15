@@ -34,7 +34,7 @@ HomeScreen -> FragmentHostActivity -> TaskDetailFragment(taskId)
 - Responsabilidad: Formulario Compose para crear/editar; devuelve resultado vía Activity Result.
 
 **TaskDetailFragment**
-- Responsabilidad: Mostrar detalle; logs/Toasts de ciclo de vida; recibe `taskId` por `Bundle`.
+- Responsabilidad: Mostrar detalle con información completa; logs de ciclo de vida; recibe `taskId` por `Bundle`.
 
 ## Decisiones Técnicas
 ### Base de Datos
@@ -49,6 +49,8 @@ HomeScreen -> FragmentHostActivity -> TaskDetailFragment(taskId)
 - **Animaciones suaves** con `animateFloatAsState`, `spring` y `tween`
 - **Ilustraciones personalizadas** con Canvas/Path para estado vacío
 - **Jerarquía visual mejorada** con tipografía, colores y elevaciones
+- **Feedback visual contextual** con Toasts informativos y emojis para todas las acciones del usuario
+- **Validación en tiempo real** con mensajes de error claros y útiles
 
 ### Notificaciones
 - **AlarmManager.setExactAndAllowWhileIdle** + **BroadcastReceiver** para disparo

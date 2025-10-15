@@ -8,7 +8,7 @@ Desarrollar un prototipo Android para gestionar tareas con recordatorios y notif
 - [x] **Editar/actualizar tareas** existentes con formulario intuitivo
 - [x] **Listar tareas** con orden reciente y filtros visuales
 - [x] **Programar recordatorios** y mostrar notificaciones automáticas
-- [x] **Feedback visual/logs** de ciclo de vida (Activity/Fragment) con Toasts
+- [x] **Feedback visual contextual** para todas las acciones del usuario con Toasts informativos
 - [x] **Marcar tareas como completadas** con animaciones
 - [x] **Eliminar tareas** con confirmación visual
 
@@ -31,7 +31,7 @@ Desarrollar un prototipo Android para gestionar tareas con recordatorios y notif
 ## Criterios de Aceptación
 - [x] **CRUD funcional y persistente** en Room con operaciones completas
 - [x] **Rotación no pierde datos** ni estado de selección (SavedStateHandle)
-- [x] **Logs/Toasts en callbacks** de ciclo de vida (MainActivity + TaskDetailFragment)
+- [x] **Toasts contextuales** para acciones del usuario (guardar, completar, editar, eliminar, validaciones)
 - [x] **Notificación cuando el recordatorio** se dispara (AlarmManager + BroadcastReceiver)
 - [x] **Permiso solicitado solo cuando corresponde** (runtime en Android 13+)
 - [x] **Fragment recibe parámetros** vía factory (`newInstance`) y `Bundle`
@@ -43,7 +43,7 @@ Desarrollar un prototipo Android para gestionar tareas con recordatorios y notif
 - ✅ **Tiempo para crear tarea < 15s** - Formulario intuitivo con validación
 - ✅ **Tasa de notificaciones mostradas > 95%** - AlarmManager + setExactAndAllowWhileIdle
 - ✅ **UI responsiva** - Animaciones suaves < 300ms
-- ✅ **Feedback visual inmediato** - Toasts y animaciones en todas las interacciones
+- ✅ **Feedback visual inmediato** - Toasts contextuales con emojis para todas las acciones del usuario
 
 ## Riesgos y Suposiciones (opcional)
 - Riesgo: Doze puede diferir `setExactAndAllowWhileIdle`

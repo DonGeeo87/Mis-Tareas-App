@@ -15,12 +15,20 @@
 - ✅ **Gestión de estado** robusta que sobrevive a rotaciones
 - ✅ **Interfaz moderna** con gradientes corporativos y animaciones
 - ✅ **Sistema de permisos** inteligente (solo cuando se necesita)
+- ✅ **Feedback visual contextual** con Toasts informativos y emojis
 
 ### 🎨 **Diseño Corporativo**
 - 🎨 **Gradientes corporativos** (#009fe3 → #312783)
 - ✨ **Animaciones suaves** en todas las interacciones
 - 🖼️ **Ilustración personalizada** para estado vacío
 - 📱 **UI moderna** con Material 3 y Jetpack Compose
+
+### 🚀 **Experiencia de Usuario**
+- 💬 **Toasts contextuales** con emojis para todas las acciones
+- ⚠️ **Validación en tiempo real** con mensajes de error claros
+- ✅ **Confirmación de operaciones** con feedback inmediato
+- 🔔 **Gestión de permisos** con mensajes informativos
+- 🎯 **Navegación intuitiva** con estados visuales claros
 
 ### 🏗️ **Arquitectura Técnica**
 - 🏛️ **Clean Architecture** + MVVM
@@ -212,6 +220,7 @@ val CorporateGradientVertical = Brush.verticalGradient(listOf(CorporateBlue, Cor
 | **Intents y Bundles** | ✅ **COMPLETO** | Navegación + paso de parámetros |
 | **startActivityForResult** | ✅ **COMPLETO** | ActivityResultContracts |
 | **Notificaciones** | ✅ **COMPLETO** | AlarmManager + BroadcastReceiver |
+| **Feedback visual contextual** | ✅ **COMPLETO** | Toasts informativos con emojis |
 
 ## 🧪 Testing y Validación
 
@@ -238,8 +247,8 @@ val CorporateGradientVertical = Brush.verticalGradient(listOf(CorporateBlue, Cor
 |-------------|--------------|---------------|------------|
 | **Tiempo crear tarea**     | < 15s | ~8s   | ✅ **SUPERADO** |
 | **Tasa notificaciones**    | > 95% | ~98%  | ✅ **SUPERADO** |
-| **UI responsiva**          | < ~150ms      | ✅ **SUPERADO** |
-| **Feedback visual**        | Inmediato     | ✅ Implementado | ✅ **CUMPLIDO** |
+| **UI responsiva**          | < 300ms | ~150ms | ✅ **SUPERADO** |
+| **Feedback visual**        | Inmediato | Toasts contextuales | ✅ **CUMPLIDO** |
 
 ## 🤝 Contribución
 
