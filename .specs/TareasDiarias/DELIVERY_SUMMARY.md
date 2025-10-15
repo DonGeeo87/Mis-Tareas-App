@@ -199,9 +199,10 @@ cd C:\Users\DonGeeo87\AndroidStudioProjects\TareasDiarias
 ```
 
 ### **📱 APKs Disponibles para Descarga:**
-- ✅ **v1.0:** `releases/MisTareas-v1.0-debug.apk` - Versión inicial
-- ✅ **v1.0.1:** `releases/MisTareas-v1.0.1-debug.apk` - Corrección de crashes
-- ✅ **v1.0.2:** `releases/MisTareas-v1.0.2-debug.apk` - **Última versión** con Toasts mejorados
+- ✅ **v1.0:** `releases/MisTareas-v1.0-debug.apk` - Versión inicial (18.1MB)
+- ✅ **v1.0.1:** `releases/MisTareas-v1.0.1-debug.apk` - Corrección de crashes (18.1MB)
+- ✅ **v1.0.2 Debug:** `releases/MisTareas-v1.0.2-debug.apk` - Con Toasts mejorados (18.2MB)
+- ✅ **v1.0.2 Release:** `releases/MisTareas-v1.0.2-release.apk` - **Última versión optimizada** (11.7MB)
 - ✅ **Acceso directo:** https://github.com/DonGeeo87/Mis-Tareas-App/blob/main/releases/
 
 ### **Para Probar:**

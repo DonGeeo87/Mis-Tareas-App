@@ -73,9 +73,20 @@ cd TareasDiarias
 ```
 
 ### 📱 Instalación Directa
+
+**Opción 1: Descargar APK Optimizada (Recomendada)**
 ```bash
-# Compilar APK
+# Descargar APK de release optimizada (11.7MB)
+# https://github.com/DonGeeo87/Mis-Tareas-App/blob/main/releases/MisTareas-v1.0.2-release.apk
+```
+
+**Opción 2: Compilar desde código**
+```bash
+# Compilar APK debug
 ./gradlew assembleDebug
+
+# Compilar APK release optimizada
+./gradlew assembleRelease
 
 # Instalar en dispositivo conectado
 ./gradlew installDebug
