@@ -99,15 +99,15 @@ MainActivity (HomeScreen)
 ## 📸 **Capturas de Pantalla**
 
 ### 🏠 Pantalla Principal
-![Pantalla Principal](../screenshots/MisTareas-app-1.jpg)
+<img src="../screenshots/MisTareas-app-1.jpg" alt="Pantalla Principal" width="250" />
 *Lista de tareas con gradientes corporativos y FAB animado*
 
 ### ✏️ Editor de Tareas  
-![Editor de Tareas](../screenshots/MisTareas-app-2.jpg)
+<img src="../screenshots/MisTareas-app-2.jpg" alt="Editor de Tareas" width="250" />
 *Formulario intuitivo con validación y selectores de fecha/hora*
 
 ### 📄 Detalle de Tarea
-![Detalle de Tarea](../screenshots/MisTareas-app-3.jpg)
+<img src="../screenshots/MisTareas-app-3.jpg" alt="Detalle de Tarea" width="250" />
 *Fragment dinámico con información completa y acciones rápidas*
 
 ---
