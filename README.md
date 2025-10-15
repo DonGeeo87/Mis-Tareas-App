@@ -40,19 +40,25 @@
 ## 📸 Capturas de Pantalla
 
 ### 🏠 Pantalla Principal
+![Pantalla Principal](screenshots/MisTareas-app-1.jpg)
 - Lista de tareas con gradientes corporativos
 - FAB animado para agregar nuevas tareas
 - Estados visuales claros (completado, pendiente)
+- Toasts contextuales con emojis
 
 ### ✏️ Editor de Tareas
+![Editor de Tareas](screenshots/MisTareas-app-2.jpg)
 - Formulario intuitivo con validación
 - Selector de fecha/hora para recordatorios
 - Botones con gradientes y animaciones
+- Validación en tiempo real con mensajes claros
 
 ### 📄 Detalle de Tarea
+![Detalle de Tarea](screenshots/MisTareas-app-3.jpg)
 - Fragment dinámico con ciclo de vida completo
 - Información detallada con badges informativos
-- Acciones rápidas (editar, eliminar)
+- Acciones rápidas (editar, eliminar, recordatorio)
+- Navegación fluida entre pantallas
 
 ## 🚀 Instalación y Uso
 
